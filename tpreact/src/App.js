@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './pages/home/Home.js';
+import Titulo from './components/titulo/Titulo.js';
+
 
 const saludo="Hola, funciono";
 function App() {
@@ -8,6 +11,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+        <Titulo text={"tp 1 React"} />
+        <Home />
         {saludo}
         </p>
         <a
